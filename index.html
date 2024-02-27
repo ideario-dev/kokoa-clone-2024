@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kakao talk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!--wifi icon-->
+      </div>
+      <div class="status-bar__column">
+        <span>18:42</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <!--Batter Icon-->
+        <i class="fas fa-bolt"></i>
+        <!--Lightning Icon-->
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+      <p class="welcome-header__text">
+        The two most important days in your life are the day you are born and
+        the day you find out why. – Mark Twain
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="E-mail or phone number"
+      />
+      <input name="password" type="text" required placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/8579c3e92a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
