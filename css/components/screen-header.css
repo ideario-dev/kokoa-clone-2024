@@ -2,7 +2,6 @@
     display:flex;
     justify-content:space-between;
     padding: 25px;
-    margin-left: var(--horizontal-space);
     margin-bottom: 15px;
 }
 
@@ -15,4 +14,11 @@
 
 .screen-header__icons span{
     margin-left:25px;
+    position:relative;
+}
+
+.screen-header__dot {
+    position:absolute;
+    top: -7px;
+    right: -7px;
 }

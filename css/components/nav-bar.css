@@ -18,10 +18,6 @@
 }
 
 .nav__dot{
-    width: 5px;
-    height: 5px;
-    border-radius: 2.5px;
-    background-color:tomato;
     position:absolute;
     left:25px;
     bottom: 20px;

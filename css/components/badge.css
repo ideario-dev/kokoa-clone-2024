@@ -10,4 +10,22 @@
     color: white;
     font-weight: 600;
   }
-  
+
+  .dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color:tomato;
+}
+
+.point-dot{
+  color:tomato;
+  background-color:white;
+  border : 1px solid tomato;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

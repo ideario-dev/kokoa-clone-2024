@@ -24,6 +24,7 @@
     margin-top:8px;
     font-size: 17px;
     font-weight:400;
+    position:relative;
 }
 
 .user-component__avatar--xl{
@@ -53,3 +54,8 @@
     display: block;
 }
 
+.user-component__subtitle .point-dot{
+position:absolute;
+right:-25px;
+top:0px;
+}
