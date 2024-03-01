@@ -22,3 +22,41 @@
     top: -7px;
     right: -7px;
 }
+
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen{
+    background-color:var(--yellow);
+    position:absolute;
+    z-index:3;
+    height:100vh;
+    width:100vw;
+    top:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 122px;
+    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+@keyframes rotateCog{
+    from{
+transform: none
+    }
+    to{
+transform: rotateZ(360deg)
+    }
+}
+
+.screen-header__icons .fa-cog:hover{
+    animation: rotateCog 3s linear infinite;
+}
