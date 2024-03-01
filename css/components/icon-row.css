@@ -10,7 +10,7 @@
     align-items:center;
 }
 
-.icon-row .number8{
+.icon-row .icon-row__icon{
     width:25%;
     margin-bottom:20px;
 }
@@ -21,4 +21,10 @@ font-size: 35px;
 
 .icon-row__icon span{
     margin-top:15px;
+}
+
+.user-component__point-dot{
+    position:absolute;
+    top:0px;
+    right: -20px;
 }

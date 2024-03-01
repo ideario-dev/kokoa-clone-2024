@@ -54,8 +54,8 @@
     display: block;
 }
 
-.user-component__subtitle .point-dot{
-position:absolute;
-right:-25px;
-top:0px;
+.user-component__point-dot{
+    position:absolute;
+    top:0px;
+    right: -20px;
 }

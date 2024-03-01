@@ -40,6 +40,9 @@
     align-items: center;
     animation: fadeIn 1s ease-in-out;
 }
+.chat_user-component{
+    margin-bottom:15px;
+}
 
 .chat__timestamp{
     color:white;
